@@ -46,3 +46,5 @@ and then change code but it showing an error that namespace Button is not define
 now add new public class then its sloved..... and removed that
 in the next step i register the context by Add the following using statements at the top of Startup.cs and add some code 
 i Add a connection string to appsetting and to examine my database
+in the next step i add Scaffold button pages and run the migration commands Add-Migration InitialCreate
+Update-Database and test app .....
