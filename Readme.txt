@@ -33,4 +33,7 @@ in the next step i create a new file under views/helloworld named Welcome.cshtml
 that will create the loop in  the Welcome.cshtml view template that displays "Hello" NumTimes.
 then run the app and search /HelloWorld/Welcome?name=Rick&numtimes=4 .... it running well.......
 
-its my 4 part of assignment 5.40pm
+its my 4 part of assignment 6.10pm
+i add database for my class
+in this part i add new folder under models named Button.cs
+and update my button.cs and i also add some  attributes and characteristics of the product like (id, title, color.......)
