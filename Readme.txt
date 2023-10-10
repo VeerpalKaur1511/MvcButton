@@ -8,4 +8,11 @@ after i go to my class tutorial and check my readme and there was same issue and
 and i do same in my assignment . its solved
  
  In the second step i add new file under Controller named HelloWorldController.
- Then add the given code and change namespace by MvcButton
+ Then add the given code and change namespace by MvcButton.
+
+
+10/10/2023   4.20pm
+
+I change my welcome method with the given code in the tutorial which  include two parameters 
+agin change the welcome method , the i tested my application.
+

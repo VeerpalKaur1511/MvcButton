@@ -12,13 +12,17 @@ namespace MvcButton.Controllers
         {
             return "This is my default action...";
         }
+        // Change the welcome method with the below code 
+        //public string Welcome(string name, int numTimes = 1)
+        //{
+        //   return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
+        //}
 
-        // 
-        // GET: /HelloWorld/Welcome/ 
+        // again change welcome method with following code 
 
-        public string Welcome()
+        public string Welcome(string name, int ID = 1)
         {
-            return "This is the Welcome action method...";
+            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
     }
 }
