@@ -22,3 +22,7 @@ agin change the welcome method , the i tested my application.
 then i add a new item named Index.cshtml under views/Helloworld.
 then in the next step i updated my content with the code for getting tittle and index and change content with following Button! Button! Button!
 and then test my app and its running successfully.
+in the next step i change my title, index and footer in layout for changes from MvcButton to  Pinky-ponky-Button
+and then run the app its ........... good
+
+in the next Change the title and <h2> element from index to button List and its my button list and then test the app.
