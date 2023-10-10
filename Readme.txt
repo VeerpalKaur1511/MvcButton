@@ -37,3 +37,12 @@ its my 4 part of assignment 6.10pm
 i add database for my class
 in this part i add new folder under models named Button.cs
 and update my button.cs and i also add some  attributes and characteristics of the product like (id, title, color.......)
+in this step i Add NuGet packages and then run the command ...
+its showing an error and after that i go to  NuGet packages solution the install Microsoft.EntityFrameworkCore.SqlServer package with 3.1.0 version
+
+6.37pm
+In the next step i add new folder named data in which i add new item named MvcButtonContext.cs
+and then change code but it showing an error that namespace Button is not defined ... now i'm sloving thios error
+now add new public class then its sloved..... and removed that
+in the next step i register the context by Add the following using statements at the top of Startup.cs and add some code 
+i Add a connection string to appsetting and to examine my database

@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MvcButton.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace MvcButton
 {
@@ -24,6 +26,8 @@ namespace MvcButton
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
+			services.AddDbContext<MvcButtonContext>(options =>
+	        options.UseSqlServer(Configuration.GetConnectionString("MvcButtonContext")));// add the connection string is passed in to the context 
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
