@@ -9,10 +9,16 @@ and i do same in my assignment . its solved
  
  In the second step i add new file under Controller named HelloWorldController.
  Then add the given code and change namespace by MvcButton.
+ Then i test my application, its running well.
+
 
 
 10/10/2023   4.20pm
 
 I change my welcome method with the given code in the tutorial which  include two parameters 
 agin change the welcome method , the i tested my application.
-
+ In part 3  replace the index for the return view
+ in the next step i make a new folder under views named "HelloWorld"
+then i add a new item named Index.cshtml under views/Helloworld.
+then in the next step i updated my content with the code for getting tittle and index and change content with following Button! Button! Button!
+and then test my app and its running successfully.

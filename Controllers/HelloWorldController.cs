@@ -8,9 +8,9 @@ namespace MvcButton.Controllers
         // 
         // GET: /HelloWorld/
 
-        public string Index()
+        public IActionResult Index() // Replace the index with this code
         {
-            return "This is my default action...";
+            return View();
         }
         // Change the welcome method with the below code 
         //public string Welcome(string name, int numTimes = 1)
