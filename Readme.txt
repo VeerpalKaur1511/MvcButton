@@ -47,4 +47,6 @@ now add new public class then its sloved..... and removed that
 in the next step i register the context by Add the following using statements at the top of Startup.cs and add some code 
 i Add a connection string to appsetting and to examine my database
 in the next step i add Scaffold button pages and run the migration commands Add-Migration InitialCreate
-Update-Database and test app .....
+Update-Database
+i have some error adnd i already make two same floder , then solve it by delete the one folder and again install 3.1.0 version  then
+go layout change some code and test app ..... wow its running....
