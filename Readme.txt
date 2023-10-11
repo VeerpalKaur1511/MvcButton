@@ -49,4 +49,7 @@ i Add a connection string to appsetting and to examine my database
 in the next step i add Scaffold button pages and run the migration commands Add-Migration InitialCreate
 Update-Database
 i have some error adnd i already make two same floder , then solve it by delete the one folder and again install 3.1.0 version  then
-go layout change some code and test app ..... wow its running....
+go layout change some code and test app ..... wow its running.... 
+and complete the 4 part 
+
+8.06pm
