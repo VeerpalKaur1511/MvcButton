@@ -52,4 +52,9 @@ i have some error adnd i already make two same floder , then solve it by delete 
 go layout change some code and test app ..... wow its running.... 
 and complete the 4 part 
 
-8.06pm
+
+11/10/2023  6.41pm
+I add new class in the modal folder named seeddata.cs ..
+then i change code with the given code after that i add 10 product items to the seeddata.cs file 
+aftewr that ipdated my program.cs code
+then test the app .. its going good...
