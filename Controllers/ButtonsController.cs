@@ -20,32 +20,32 @@ namespace MvcButton.Controllers
         }
 
         // GET: Buttons
-        //public async Task<IActionResult> Index(string searchString) // i add search string in index to get search
-        //{
-        //    var buttons = from b in _context.Button
-        //                 select b;
-
-        //    if (!String.IsNullOrEmpty(searchString))
-        //    {
-        //        buttons = buttons.Where(s => s.Title.Contains(searchString));
-        //    }
-
-        //    return View(await buttons.ToListAsync());
-        //}
-
-        // updated index method with id parameter
-        public async Task<IActionResult> Index(string id)
+        public async Task<IActionResult> Index(string searchString) // i add search string in index to get search
         {
             var buttons = from b in _context.Button
-                         select b;
+                          select b;
 
-            if (!String.IsNullOrEmpty(id))
+            if (!String.IsNullOrEmpty(searchString))
             {
-                buttons = buttons.Where(s => s.Title.Contains(id));
+                buttons = buttons.Where(s => s.Title.Contains(searchString));
             }
 
             return View(await buttons.ToListAsync());
         }
+
+        //// updated index method with id parameter
+        //public async Task<IActionResult> Index(string id)
+        //{
+        //    var buttons = from b in _context.Button
+        //                 select b;
+
+        //    if (!String.IsNullOrEmpty(id))
+        //    {
+        //        buttons = buttons.Where(s => s.Title.Contains(id));
+        //    }
+
+        //    return View(await buttons.ToListAsync());
+        //}
 
         // GET: Buttons/Details/5
         public async Task<IActionResult> Details(int? id)
