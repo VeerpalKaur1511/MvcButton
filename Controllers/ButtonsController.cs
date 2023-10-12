@@ -20,17 +20,34 @@ namespace MvcButton.Controllers
         }
 
         // GET: Buttons
-        public async Task<IActionResult> Index(string searchString) // i add search string in index to get search
-        {
-            var buttons = from b in _context.Button
-                          select b;
 
-            if (!String.IsNullOrEmpty(searchString))
+         public async Task<IActionResult> Index(string buttonColor, string searchString)// i add search string in index to get search
+        {
+            // Use LINQ to get list of color.
+            IQueryable<string> colorQuery = from b in _context.Button
+                                            orderby b.Color
+                                            select b.Color;
+
+            var buttons = from b in _context.Button
+                         select b;
+
+            if (!string.IsNullOrEmpty(searchString))
             {
                 buttons = buttons.Where(s => s.Title.Contains(searchString));
             }
 
-            return View(await buttons.ToListAsync());
+            if (!string.IsNullOrEmpty(buttonColor))
+            {
+                buttons = buttons.Where(x => x.Color == buttonColor);
+            }
+
+            var buttonColorVM = new ButtonColorViewModel
+            {
+                Colors = new SelectList(await colorQuery.Distinct().ToListAsync()),
+                Buttons = await buttons.ToListAsync()
+            };
+
+            return View(buttonColorVM);
         }
         [HttpPost]
         public string Index(string searchString, bool notUsed)

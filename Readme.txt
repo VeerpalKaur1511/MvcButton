@@ -71,3 +71,7 @@ now again i updated my index method with id parameter... then tested it... its g
 again i change index method from id to search string.
 then i add form markup to index.cshtml so that it will create a search box below index.
 then add the  [HttpPost] Index method and put get method in index.cshtml like <form asp-controller="Buttons" asp-action="Index" method="get">
+
+12.28pm
+i added a new class named ButtonColorViewModel under models folder...then updated the index method in buttonController.cs 
+then add search box by color to index view ....tested application....by color and title ....and its working.......
