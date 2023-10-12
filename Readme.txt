@@ -61,3 +61,8 @@ then test the app .. its going good...
 
 12/10/2023  10.58Am part6 
 in this step i add  [Column(TypeName = "decimal(18, 2)")] data annotation so that Entity Framework Core can correctly map Price to currency in the database
+and i examine all code
+
+11.34 Am part7
+in this part i update my index method in Controllers/MoviesController.cs for adding the search string so that i can get a buttons title by search
+the i tested my application ... wow .. its working...

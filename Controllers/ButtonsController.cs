@@ -20,9 +20,17 @@ namespace MvcButton.Controllers
         }
 
         // GET: Buttons
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Button.ToListAsync());
+            var buttons = from b in _context.Button
+                         select b;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                buttons = buttons.Where(s => s.Title.Contains(searchString));
+            }
+
+            return View(await buttons.ToListAsync());
         }
 
         // GET: Buttons/Details/5
