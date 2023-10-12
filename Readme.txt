@@ -75,3 +75,7 @@ then add the  [HttpPost] Index method and put get method in index.cshtml like <f
 12.28pm
 i added a new class named ButtonColorViewModel under models folder...then updated the index method in buttonController.cs 
 then add search box by color to index view ....tested application....by color and title ....and its working.......
+
+12.35pm part 8 (add new filed)
+i added  a new property rating in buttons.cs/models..then update the [Bind] attribute for both the Create and Edit action methods to include the Rating property in buttonsController.cs
+then update view templates in index.cshtml to add rating field
