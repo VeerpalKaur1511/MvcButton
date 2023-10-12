@@ -32,7 +32,11 @@ namespace MvcButton.Controllers
 
             return View(await buttons.ToListAsync());
         }
-
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
+        }
         //// updated index method with id parameter
         //public async Task<IActionResult> Index(string id)
         //{
