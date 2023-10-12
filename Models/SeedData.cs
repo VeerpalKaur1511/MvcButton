@@ -29,7 +29,7 @@ namespace MvcButton.Models
                         Materials = "Wood",
                         Color = "Pink",
                         Price = 8.5M,
-                        Rating = "Good"
+                        Rating = "R"
                     },
 
                     new Button
