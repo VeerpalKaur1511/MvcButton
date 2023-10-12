@@ -28,7 +28,8 @@ namespace MvcButton.Models
                         Size = 2.7M,
                         Materials = "Wood",
                         Color = "Pink",
-                        Price = 8.5M
+                        Price = 8.5M,
+                        Rating = "Good"
                     },
 
                     new Button
@@ -37,7 +38,8 @@ namespace MvcButton.Models
                         Size = 3.9M,
                         Materials = "Plastic",
                         Color = "Green",
-                        Price = 9.0M
+                        Price = 9.0M,
+                        Rating = "well"
                     },
 
 
@@ -47,7 +49,8 @@ namespace MvcButton.Models
                         Size = 4.5M,
                         Materials = "Metal",
                         Color = "Blue",
-                        Price = 6.6M
+                        Price = 6.6M,
+                        Rating = "Good"
                     },
 
                     new Button
@@ -56,7 +59,8 @@ namespace MvcButton.Models
                         Size = 5.9M,
                         Materials = "Fabric",
                         Color = "Brown",
-                        Price = 1.7M
+                        Price = 1.7M,
+                        Rating = "Very Good"
                     },
                     new Button
                     {
@@ -64,7 +68,8 @@ namespace MvcButton.Models
                         Size = 3.9M,
                         Materials = "Leather",
                         Color = "Red",
-                        Price = 4.1M
+                        Price = 4.1M,
+                        Rating = "Excellent"
                     },
                     new Button
                     {
@@ -72,7 +77,8 @@ namespace MvcButton.Models
                         Size = 1.9M,
                         Materials = "Glass",
                         Color = "Black",
-                        Price = 8.4M
+                        Price = 8.4M,
+                        Rating = "Bad"
                     },
                     new Button
                     {
@@ -80,7 +86,8 @@ namespace MvcButton.Models
                         Size = 2.8M,
                         Materials = "Paper",
                         Color = "White",
-                        Price = 7.33M
+                        Price = 7.33M,
+                        Rating = "Good"
                     },
                     new Button
                     {
@@ -88,7 +95,8 @@ namespace MvcButton.Models
                         Size = 8.6M,
                         Materials = "Chinese knotted",
                         Color = "Yellow",
-                        Price = 13.6M
+                        Price = 13.6M,
+                        Rating = "Not to Bad"
                     },
                     new Button
                     {
@@ -96,7 +104,8 @@ namespace MvcButton.Models
                         Size = 6.7M,
                         Materials = "Plastic",
                         Color = "Orange",
-                        Price = 84.2M
+                        Price = 84.2M,
+                        Rating = "Good"
                     },
                     new Button
                     {
@@ -104,7 +113,8 @@ namespace MvcButton.Models
                         Size = 7.7M,
                         Materials = "Wood",
                         Color = "Grey",
-                        Price = 57.3M
+                        Price = 57.3M,
+                        Rating = "Excellent"
                     }
 
                 );
