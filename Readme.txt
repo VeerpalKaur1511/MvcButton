@@ -53,8 +53,10 @@ go layout change some code and test app ..... wow its running....
 and complete the 4 part 
 
 
-11/10/2023  6.41pm
+11/10/2023  6.41pm part 5
 I add new class in the modal folder named seeddata.cs ..
 then i change code with the given code after that i add 10 product items to the seeddata.cs file 
 aftewr that ipdated my program.cs code
 then test the app .. its going good...
+
+8.9pm part6
