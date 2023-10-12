@@ -59,4 +59,5 @@ then i change code with the given code after that i add 10 product items to the 
 aftewr that ipdated my program.cs code
 then test the app .. its going good...
 
-8.9pm part6
+12/10/2023  10.58Am part6 
+in this step i add  [Column(TypeName = "decimal(18, 2)")] data annotation so that Entity Framework Core can correctly map Price to currency in the database
