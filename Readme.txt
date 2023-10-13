@@ -84,3 +84,6 @@ then update view templates in index.cshtml to add rating field and update all fi
 i have an error that rating field is not shown in eidt , details 
 then i delete initial create and delete all enteries in browers./....run the commands
 then test it....its going good...
+
+(Modifications)
+I added a new page inside home with name about Us and give discription about my company then I updated my HomeController.cs as well as Layout.cshtml page and run the app and it is working and showing result of my Aboutus page.
