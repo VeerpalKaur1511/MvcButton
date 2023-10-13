@@ -9,7 +9,7 @@ using MvcButton.Data;
 namespace MvcButton.Migrations
 {
     [DbContext(typeof(MvcButtonContext))]
-    [Migration("20231012165239_Rating")]
+    [Migration("20231013140958_Rating")]
     partial class Rating
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

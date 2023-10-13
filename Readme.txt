@@ -79,3 +79,8 @@ then add search box by color to index view ....tested application....by color an
 12.35pm part 8 (add new filed)
 i added  a new property rating in buttons.cs/models..then update the [Bind] attribute for both the Create and Edit action methods to include the Rating property in buttonsController.cs
 then update view templates in index.cshtml to add rating field and update all files and seeddata.
+
+10.18Am 13/10/2023 
+i have an error that rating field is not shown in eidt , details 
+then i delete initial create and delete all enteries in browers./....run the commands
+then test it....its going good...
